@@ -21,7 +21,7 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="FbN-N6-gYS" customClass="ImageCoinArrondi" customModule="Moment" customModuleProvider="target">
-                        <rect key="frame" x="10" y="8.5" width="128" height="128.5"/>
+                        <rect key="frame" x="10" y="8" width="128" height="128.5"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="128" id="bZX-zm-Cyo"/>
                             <constraint firstAttribute="height" constant="128" id="wUg-Fm-A1h"/>
@@ -37,7 +37,7 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c1a-qV-agL">
-                        <rect key="frame" x="146" y="59" width="349" height="76"/>
+                        <rect key="frame" x="146" y="59" width="349" height="75"/>
                         <fontDescription key="fontDescription" type="italicSystem" pointSize="20"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
@@ -51,8 +51,10 @@
                     <constraint firstItem="c1a-qV-agL" firstAttribute="top" secondItem="zNc-XF-d6x" secondAttribute="bottom" constant="8" id="Qsf-cb-8UB"/>
                     <constraint firstAttribute="trailingMargin" secondItem="zNc-XF-d6x" secondAttribute="trailing" id="V96-XQ-oFS"/>
                     <constraint firstItem="c1a-qV-agL" firstAttribute="leading" secondItem="FbN-N6-gYS" secondAttribute="trailing" constant="8" id="Y0x-Og-r6U"/>
+                    <constraint firstItem="FbN-N6-gYS" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="eCr-UX-FuF"/>
                     <constraint firstItem="c1a-qV-agL" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="fYk-P4-15P"/>
                     <constraint firstItem="FbN-N6-gYS" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="gGC-vd-gHg"/>
+                    <constraint firstAttribute="bottom" secondItem="FbN-N6-gYS" secondAttribute="bottom" constant="8" id="r9i-r3-nGL"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
