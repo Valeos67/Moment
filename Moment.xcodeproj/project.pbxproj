@@ -22,6 +22,9 @@
 		B6B4A415213D56340027D377 /* ImageCoinArrondi.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B4A414213D56340027D377 /* ImageCoinArrondi.swift */; };
 		B6B4A418213D9B880027D377 /* MomentCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B4A416213D9B880027D377 /* MomentCollectionCell.swift */; };
 		B6B4A419213D9B880027D377 /* MomentCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6B4A417213D9B880027D377 /* MomentCollectionCell.xib */; };
+		B6B4A41C21428AC80027D377 /* PhotoDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B4A41A21428AC80027D377 /* PhotoDetailController.swift */; };
+		B6B4A41D21428AC80027D377 /* PhotoDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6B4A41B21428AC80027D377 /* PhotoDetailController.xib */; };
+		B6B4A41F21428CD60027D377 /* Ratio.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B4A41E21428CD60027D377 /* Ratio.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +45,9 @@
 		B6B4A414213D56340027D377 /* ImageCoinArrondi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCoinArrondi.swift; sourceTree = "<group>"; };
 		B6B4A416213D9B880027D377 /* MomentCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentCollectionCell.swift; sourceTree = "<group>"; };
 		B6B4A417213D9B880027D377 /* MomentCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MomentCollectionCell.xib; sourceTree = "<group>"; };
+		B6B4A41A21428AC80027D377 /* PhotoDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailController.swift; sourceTree = "<group>"; };
+		B6B4A41B21428AC80027D377 /* PhotoDetailController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoDetailController.xib; sourceTree = "<group>"; };
+		B6B4A41E21428CD60027D377 /* Ratio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ratio.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +99,8 @@
 				B6B4A406213C41430027D377 /* TableController.swift */,
 				B6B4A407213C41430027D377 /* TableController.xib */,
 				B6B4A40A213C42980027D377 /* TabBarController.swift */,
+				B6B4A41A21428AC80027D377 /* PhotoDetailController.swift */,
+				B6B4A41B21428AC80027D377 /* PhotoDetailController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -114,6 +122,7 @@
 			children = (
 				B6B4A40C213D4FDC0027D377 /* Photo.swift */,
 				B6B4A40E213D50C10027D377 /* BaseDePhotos.swift */,
+				B6B4A41E21428CD60027D377 /* Ratio.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -179,6 +188,7 @@
 				B6B4A409213C41430027D377 /* TableController.xib in Resources */,
 				B6B4A419213D9B880027D377 /* MomentCollectionCell.xib in Resources */,
 				B6B4A413213D53980027D377 /* MomentTableCell.xib in Resources */,
+				B6B4A41D21428AC80027D377 /* PhotoDetailController.xib in Resources */,
 				B6B4A3F5213C3EC10027D377 /* LaunchScreen.storyboard in Resources */,
 				B6B4A405213C40CD0027D377 /* CollectionController.xib in Resources */,
 				B6B4A3F2213C3EC10027D377 /* Assets.xcassets in Resources */,
@@ -199,6 +209,8 @@
 				B6B4A415213D56340027D377 /* ImageCoinArrondi.swift in Sources */,
 				B6B4A404213C40CD0027D377 /* CollectionController.swift in Sources */,
 				B6B4A40F213D50C10027D377 /* BaseDePhotos.swift in Sources */,
+				B6B4A41F21428CD60027D377 /* Ratio.swift in Sources */,
+				B6B4A41C21428AC80027D377 /* PhotoDetailController.swift in Sources */,
 				B6B4A418213D9B880027D377 /* MomentCollectionCell.swift in Sources */,
 				B6B4A40D213D4FDC0027D377 /* Photo.swift in Sources */,
 			);

@@ -18,7 +18,7 @@ class TabBarController: UITabBarController {
         collection.title = "Collection View"
         collection.tabBarItem.image = #imageLiteral(resourceName: "collectionView")
         
-        let table = TableController()
+        let table = UINavigationController(rootViewController: TableController())
         table.title = "Table View"
         table.tabBarItem.image = #imageLiteral(resourceName: "tableView")
 

@@ -41,6 +41,13 @@ photos = BaseDePhotos.charger.toutesLesPhotos()
         return UITableViewCell()
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let controller = PhotoDetailController()
+        controller.photo = photos[indexPath.row]
+//        self.present(controller, animated: true, completion: nil)   PEUT ETRE UTILISE MAIS ON ESSAIE AUTREMENT
+        self.navigationController?.pushViewController(controller, animated: true)
+    }
+    
     func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -> CGFloat {
         return 150
     }

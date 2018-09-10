@@ -20,13 +20,13 @@
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rCY-Yc-jxi" customClass="ImageCoinArrondi" customModule="Moment" customModuleProvider="target">
-                        <rect key="frame" x="0.0" y="0.0" width="231" height="255"/>
+                        <rect key="frame" x="0.0" y="0.0" width="211" height="255"/>
                     </imageView>
                 </subviews>
             </view>
             <constraints>
                 <constraint firstAttribute="bottom" secondItem="rCY-Yc-jxi" secondAttribute="bottom" id="XSR-vP-Mde"/>
-                <constraint firstAttribute="trailing" secondItem="rCY-Yc-jxi" secondAttribute="trailing" id="Yqj-tB-xDC"/>
+                <constraint firstAttribute="trailing" secondItem="rCY-Yc-jxi" secondAttribute="trailing" constant="20" id="Yqj-tB-xDC"/>
                 <constraint firstItem="rCY-Yc-jxi" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="eEe-dq-uO5"/>
                 <constraint firstItem="rCY-Yc-jxi" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="ff8-NT-ztk"/>
             </constraints>
